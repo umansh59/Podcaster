@@ -1,0 +1,26 @@
+# Streamlit for the web app
+streamlit>=1.0.0
+
+# SpaCy for NLP
+spacy>=3.0.0
+
+# Python Dotenv to load environment variables
+python-dotenv>=0.20.0
+
+# PyPDF2 for PDF text extraction
+PyPDF2>=3.0.0
+
+# python-docx for DOCX text extraction
+python-docx>=0.8.11
+
+# pyttsx3 for text-to-speech
+pyttsx3>=2.90
+
+# LangChain for language model chains and prompts
+langchain>=0.0.171
+
+# Google Generative AI integration with LangChain
+langchain_google_genai
+
+# (Optional) If you are using modules from langchain_core, include it as well.
+langchain_core

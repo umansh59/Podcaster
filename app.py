@@ -1,5 +1,4 @@
 import streamlit as st
-import spacy
 from langchain_google_genai import GoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
 from langchain.chains import LLMChain
@@ -13,8 +12,6 @@ import pyttsx3
 load_dotenv()
 api_key = os.getenv("GOOGLE_GENAI_API_KEY")
 
-# Initialize SpaCy model
-nlp = spacy.load("en_core_web_sm")
 
 # Initialize Google Generative AI
 google_llm = GoogleGenerativeAI(model="models/gemini-1.5-flash", google_api_key=api_key)
